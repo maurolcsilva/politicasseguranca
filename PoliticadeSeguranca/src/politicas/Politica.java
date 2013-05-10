@@ -3,6 +3,7 @@ package politicas;
 public class Politica {
 	private String definicao;
 	private String pessoas;
+	private int idade;
 	
 	public String getDefinicao() {
 		return definicao;
