@@ -5,6 +5,12 @@ public class Politica {
 	private String pessoas;
 	private int idade;
 	
+	public int getIdade() {
+		return idade;
+	}
+	public void setIdade(int idade) {
+		this.idade = idade;
+	}
 	public String getDefinicao() {
 		return definicao;
 	}
